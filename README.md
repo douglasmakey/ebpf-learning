@@ -3,6 +3,7 @@
 ## Open files vigilant
 
 Article: https://www.kungfudev.com/blog/2023/10/14/the-beginning-of-my-ebpf-journey-kprobe-bcc
+
 Path: `python-examples/open_files_vigilant`
 
 By running the code, we'll be able to observe the interplay between the kernel and user space as eBPF monitors file access events.
@@ -23,6 +24,7 @@ UID: 501 COMM: b'cat' Flags: O_CLOEXEC File: b'/etc/ld.so.cache'
 ## Socket surveillance
 
 Article: https://www.kungfudev.com/blog/2023/10/22/ipv4-socket-surveillance-tracing-using-kprobe-kretprobe-maps-bcc#kernel-space
+
 Path: `python-examples/socket_surveillance`
 
 Upon executing the command `sudo python3 app.py` in one terminal, and subsequently running the curl command `curl --http1.1 http://www.kungfudev.com` in another terminal, we set the stage for observing the interaction between the eBPF program and the network operations initiated by the curl request.
