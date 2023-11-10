@@ -50,6 +50,8 @@ The comm: curl-128344 closed the socket with FD: 4
 
 ## My precious secret files
 
+Article: https://www.kungfudev.com/blog/2023/10/27/ebpf-beyond-observability-modifying-syscall-behavior
+
 Path: `python-examples/secret_files`
 
 let's create the two secret files in the `tmp` directory.
